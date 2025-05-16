@@ -8,7 +8,7 @@
 
 */
  
- let numeroSorteado = Math.floor(Math.random() * 10) + 1;
+ let numeroSorteado = Math.floor(Math.random() * 100) + 1;
  let tentativas = 10;
  document.getElementById("tentativas").textContent = "Você tem " + tentativas + " tentativas";
 
