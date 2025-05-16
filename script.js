@@ -22,6 +22,10 @@
      }
   }
    function chutar() {
+     if (tentativas == 0) {
+         document.getElementById("tentativas").textContent = "Você não tem mais tentativas.";
+            return;
+    }
     let numerochutado = Number(document.getElementById("chute").value);
     const numeroInvalido = (numerochutado < 1 || numerochutado > 100);
     if (numeroInvalido) {
