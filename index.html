@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo do Chute</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <H1>Jogo do Chute</H1>
+    <p>Você tem 10 tentativas para adivinhar o número entre 1 e 100.</p>
+  </header>
+    <main>
+      <label>Digite seu Chute de 1 a 100</label>
+       <input type="number" id="chute">
+       <button onclick="chutar(); diminuirTentativas()">Chutar</button>
+        <p id="tentativas"></p>
+         <p id="resultado"></p>
+    </main>
+</body>
+</html>
